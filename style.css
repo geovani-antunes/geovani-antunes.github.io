@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+html, body {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+ 
+}
+.container {
+min-height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+/*Hero Section*/
+
+#hero{
+    background-image: url(IMAGE/23323.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#hero h1{
+    text-align: center;
+    padding: 0 0 0 10;
+    font-size: 4rem;
+    position: relative;
+    color: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: white;
+
+    
+    
+}
+
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    border-radius: 5px;
+
+
+
+
+
+
+}
+#hero .cta:hover {
+    color: black;
+    background-color: white;
+}
+/*End Hero Section*/
+
+
+p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 0 7%;
+
+}
+
+#fisttitle {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #191970;
+}
+
+#secondtitle {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #191970;
+
+}
+.objetivo{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 0 7%;
+}
+
+#coluna-primeira {
+    overflow: hidden;
+}
+.coluna-titulo {
+ width: 50%;
+ float: right;
+ text-align: justify;
+ padding-left: 0 10%;
+ position: relative;
+}
+#linkonu{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding-left: 40%;
+}
+#text-onu{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    text-align: center;
+    color: #191970;
+    text-align: center;
+}
+
+
+.justificado{
+    text-align: justify;
+    position: relative;
+}
+
+/*inicio ações*/
+
+#informacoes{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #191970;
+    padding: 0 2%;
+}
+#saude {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #191970;
+    padding: 0 2%;
+}
+#energia {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #191970;
+    padding: 0 2%;
+}
+#veiculos {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #191970;
+    padding: 0 2%;
+}
+
+#img:hover {
+    background-color: #CBD3FF;
+}
+
+/*fim acoes*/
+
+#video {
+    padding: 0 5%;
+    
+}
+#img {
+    padding: 0 5%;
+    height: 60px;
+
+}
+#selecao {
+    overflow: hidden;
+}
+.coluna {
+ width: 25%;
+ float: left;
+ text-align: center;
+}
+
+#linkonu{
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    height: 150px;
+
+}
+/*Sobre Mim*/
+#profile{
+    height: 250px;
+    padding-left: 30%;
+    text-align: right;
+}
+#coluna-segunda {
+    overflow: hidden;
+}
+.coluna-sobre {
+ width: 50%;
+ float: left;
+ padding-left: 5%;
+text-align: justify;
+ position: relative;
+}
+.title-sobre{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #191970;
+    padding: 0 2%;
+}
+
+
+/* Rodapé*/
+#rodape {
+    background-image: url(IMAGE/fundorodape.jpg);
+    height: 240px;
+    width: 100%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+#text-rodape {
+    color: white;
+    font-family: 'Lora', serif;
+}
+/* Imagens Rodapé*/
+
+#facebook{
+    height: 30px;
+    z-index:10;
+    text-align: center;
+
+}
+#instagram{
+    height: 30px;
+    z-index: 2;
+    text-align: center;
+    padding-left: 2%;
+}
+#github{
+    height: 30px;
+    z-index: 2;
+    text-align: center;
+    padding-left: 2%;
+}
+#text-rodape{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#rodape-text{
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+#coluna-segunda {
+    overflow: hidden;
+}
+.coluna-sobre {
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+   text-align: justify;
+    position: relative;
+
+}
+#contato{
+    text-align: center;
+}
+
+/*Responsividade*/
+
+@media all and (max-width: 768px) {
+.coluna-titulo, .coluna, .coluna-sobre {
+        display: block; 
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+
+    }
+    #video{
+        width: 100px;
+    }
+    .cta{
+        transform: translateX(93%);
+    }
+#rodape{
+    height: 400px;
+    }
+}
+
+
+@media all and (max-width: 1095px) {
+    .coluna-titulo, .coluna, .coluna-sobre {
+        display: block; 
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+
+    }
+    #video{
+        width: 700px;
+    }
+
+}
+
+/*Resposividade rodape*/
+@media all and (max-width: 768px) {
+    #rodape {
+        height: 500px;
+    }
+}
+@media all and (max-width: 1024px) {
+    #rodape {
+        height: 400px;
+    }
+}
+@media all and (max-width: 1090px) {
+    #rodape {
+        height: 450px;
+    }
+}
+/*fim responsividade rodape*/
+@media all and (max-width: 461px) {
+    #video{
+        width: 350px;
+    }
+
+}
+@media all and (max-width: 780px) {
+    #video{
+        width: 500px;
+    }
+
+}
+@media all and (max-width: 556px) {
+    #video{
+        width: 350px;
+    }
+
+}
+
